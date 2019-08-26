@@ -58,11 +58,10 @@ table {
 
 
 /*MY CODE */
-
 body{
   margin: 10px;
+  padding: 20px;
 }
-
 nav{
   width: 100%;
   display: flex;
