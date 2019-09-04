@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head> 
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Learn to Code and Help Nonprofits | freeCodeCamp</title>
@@ -139,4 +139,13 @@
     </main>
     <footer class="footer"></footer>
   </body>
+  <script>
+    function open(){
+      let menuLists = document.querySelectorAll(".menu-list");
+      menuLists.forEach(list => {
+        list.classList.toggle("appear");
+      });
+    }
+    document.querySelector(".menu").addEventListener("click", open)
+  </script>
 </html>
